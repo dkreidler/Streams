@@ -7,4 +7,4 @@ highland(fs.createReadStream('customers.csv', 'utf8'))
         name: parts[0],
         numPurchases: parts[1]
     }))
-    .each(x => console.log('each: ', x))
+    .each(x => console.log(x))
